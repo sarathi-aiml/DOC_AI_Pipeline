@@ -1,3 +1,23 @@
+# Document AI Integration with Snowflake  
+
+## Overview  
+
+Organizations handle a vast number of documents from various vendors, departments, and external sources, integrating them into internal systems. These documents often contain critical data required by downstream systems. Many businesses rely on manual or semi-automated processes that are inefficient and require significant human intervention.  
+
+This solution **fully automates the end-to-end data extraction process** using **Document AI models** tailored to different PDF formats, integrating with **Snowflake** for structured storage and leveraging metadata for model and score management.  
+
+## Solution Components  
+
+The architecture consists of multiple components working together to efficiently process, extract, and validate data from PDFs:  
+
+- **📄 Document AI Models** – Custom-trained models to extract structured information from PDFs.  
+- **🗂 Metadata Management** – Centralized tables to manage model configurations, extracted data scoring, and processing rules.  
+- **✅ Pre-Processing (Gatekeeper Process)** – A Python-based validation layer to filter and approve documents before processing.  
+- **🔄 ETL Pipeline** – Handles data extraction, transformation, and validation to ensure high-quality structured output.  
+- **🖥 Streamlit UI** – A web-based interface for managing models, tracking processes, handling exceptions, and enabling reprocessing.  
+
+This automated pipeline enhances efficiency, reduces manual workload, and ensures accurate and scalable document processing within **Snowflake**. 🚀  
+
 ![Architecture Diagram](./Arc_DocAI.png)
 
 
