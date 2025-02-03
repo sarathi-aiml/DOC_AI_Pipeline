@@ -20,6 +20,7 @@ This automated pipeline enhances efficiency, reduces manual workload, and ensure
 
 ![Architecture Diagram](./Arc_DocAI.png)
 
+![Architecture Diagram](./Streamlit.png)
 
 # Steps to Replicate the Setup
 
