@@ -1,6 +1,4 @@
-<p align="center">
-  <img src="./Arc_DocAI.png" width="100%">
-</p>
+![Architecture Diagram](./Arc_DocAI.png)
 
 
 # Steps to Replicate the Setup
