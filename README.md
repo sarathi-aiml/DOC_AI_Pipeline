@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="./Arc_DocAI.png" width="100%">
+</p>
+
+
 # Steps to Replicate the Setup
 
 ## Create a Document AI Model
